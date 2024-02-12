@@ -1,0 +1,17 @@
+.linkcomp {
+	color: #008CF0;
+	text-decoration: none;
+	cursor: pointer;
+
+	&_font_bold {
+		font-weight: bold;
+	}
+
+	&:hover {
+		color: #F36223;
+	}
+
+	&:active {
+		color: #A93A09;
+	}
+}

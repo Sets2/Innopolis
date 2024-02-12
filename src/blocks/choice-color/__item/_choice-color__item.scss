@@ -1,0 +1,46 @@
+.choice-color__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 80px;
+    height: 80px;
+    border: 1px solid $color__darkgray;
+    border-radius: 4px;
+    cursor: pointer;
+    background: transparent;
+
+    &:hover {
+        background: $color__lightgray;
+    }
+
+    &:active {
+        border: 2px solid $color__brown;
+    }
+
+    @media screen and (max-width: $q-hd-screen) {}
+
+    @media screen and (max-width: $high-hd-screen) {}
+
+    @media screen and (max-width: $full-hd-screen) {}
+
+    @media screen and (max-width: $dell-hd-screen) {}
+
+    @media screen and (max-width: $mac-hd-screen) {}
+
+    @media screen and (max-width: $ready-hd-screen) {}
+
+    @media screen and (max-width: $big-tablet-screen) {}
+
+    @media screen and (max-width: $middle-tablet-screen) {}
+
+    @media screen and (max-width: $small-tablet-screen) {}
+
+    @media screen and (max-width: $big-phone-screen) {}
+
+    @media screen and (max-width: $middle-phone-screen) {}
+
+    @media screen and (max-width: $small-phone-screen) {}
+}
+
+@import "_selected/_choice-color__item_selected";

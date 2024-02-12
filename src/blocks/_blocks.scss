@@ -1,0 +1,67 @@
+.blocks {
+    @media screen and (max-width: $q-hd-screen) {
+    }
+
+    @media screen and (max-width: $high-hd-screen) {
+    }
+
+    @media screen and (max-width: $full-hd-screen) {
+    }
+
+    @media screen and (max-width: $dell-hd-screen) {
+    }
+
+    @media screen and (max-width: $mac-hd-screen) {
+    }
+
+    @media screen and (max-width: $ready-hd-screen) {
+    }
+
+    @media screen and (max-width: $big-tablet-screen) {
+    }
+
+    @media screen and (max-width: $middle-tablet-screen) {
+    }
+
+    @media screen and (max-width: $small-tablet-screen) {
+    }
+
+    @media screen and (max-width: $big-phone-screen) {
+    }
+
+    @media screen and (max-width: $middle-phone-screen) {
+    }
+
+    @media screen and (max-width: $small-phone-screen) {
+    }
+}
+
+@import "advertisement/advertisement";
+@import "breadcrumbs/breadcrumbs";
+@import "characteristics/characteristics";
+@import "choice-color/choice-color";
+@import "cmp-table/cmp-table";
+@import "comparison/comparison";
+@import "comparison-chart/comparison-chart";
+@import "container/container";
+@import "css/css";
+@import "description/description";
+@import "feedback/feedback";
+@import "font/font";
+@import "footer/footer";
+@import "footer-common/footer-common";
+@import "frame-advertisement/frame-advertisement";
+@import "header/header";
+@import "header-container/header-container";
+@import "icons/icons";
+@import "images/images";
+@import "input-fields/input-fields";
+@import "link/link";
+@import "memory/memory";
+@import "product/product";
+@import "review/review";
+@import "reviews/reviews";
+@import "sale/sale";
+@import "separator/separator";
+@import "sidebar/sidebar";
+@import "specifications/specifications";

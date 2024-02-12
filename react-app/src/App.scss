@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container-app {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-items: stretch;
+	;
+}

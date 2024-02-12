@@ -1,0 +1,38 @@
+.feedback__error {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: $color__white;
+
+    padding: 8px 20px;
+    background-color: $color__darkcarrot;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+
+    @media screen and (max-width: $q-hd-screen) {}
+
+    @media screen and (max-width: $high-hd-screen) {}
+
+    @media screen and (max-width: $full-hd-screen) {}
+
+    @media screen and (max-width: $dell-hd-screen) {}
+
+    @media screen and (max-width: $mac-hd-screen) {}
+
+    @media screen and (max-width: $ready-hd-screen) {}
+
+    @media screen and (max-width: $big-tablet-screen) {}
+
+    @media screen and (max-width: $middle-tablet-screen) {}
+
+    @media screen and (max-width: $small-tablet-screen) {}
+
+    @media screen and (max-width: $big-phone-screen) {}
+
+    @media screen and (max-width: $middle-phone-screen) {}
+
+    @media screen and (max-width: $small-phone-screen) {}
+}

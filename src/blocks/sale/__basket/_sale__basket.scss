@@ -1,0 +1,63 @@
+.sale__basket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 44px;
+    gap: 15px;
+    font-size: 20px;
+    line-height: 24px;
+    background: $color__carrot;
+    border-radius: 4px;
+    color: $color__white;
+    cursor: pointer;
+
+    &:hover {
+        background: $color__darkcarrot;
+    }
+
+    &:active {
+        background: $color__brown;
+    }
+
+    &::before {
+        content: '';
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        background-image: url("../media/images/cart_white.svg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+    }
+
+    &::after {
+        content: 'Добавить в корзину';
+    }
+
+    @media screen and (max-width: $q-hd-screen) {}
+
+    @media screen and (max-width: $high-hd-screen) {}
+
+    @media screen and (max-width: $full-hd-screen) {}
+
+    @media screen and (max-width: $dell-hd-screen) {}
+
+    @media screen and (max-width: $mac-hd-screen) {}
+
+    @media screen and (max-width: $ready-hd-screen) {}
+
+    @media screen and (max-width: $big-tablet-screen) {}
+
+    @media screen and (max-width: $middle-tablet-screen) {}
+
+    @media screen and (max-width: $small-tablet-screen) {}
+
+    @media screen and (max-width: $big-phone-screen) {}
+
+    @media screen and (max-width: $middle-phone-screen) {}
+
+    @media screen and (max-width: $small-phone-screen) {}
+}
+
+@import "_choise/_sale__basket_choise";
+@import "_notChoice/_sale__basket_notChoice";

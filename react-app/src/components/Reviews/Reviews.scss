@@ -1,0 +1,52 @@
+.reviews {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: stretch;
+	flex-grow: 1;
+	gap: 25px;
+
+	&__counter {
+		color: #888888;
+	}
+
+	&__header {
+		display: flex;
+		align-items: flex-start;
+		align-items: center;
+		gap: 10px;
+	}
+
+	&__items {
+		display: flex;
+		flex-direction: column;
+		align-items: stretch;
+		flex-grow: 1;
+		gap: 40px;
+		overflow: hidden;
+	}
+
+	&__add {
+		font-weight: 500;
+		font-size: 16px;
+		padding: 10px 20px;
+		border: 1px solid #888888;
+		border-radius: 4px;
+		cursor: pointer;
+	}
+}
+
+.separator {
+	border-top: 1px dashed #888888;
+	margin-left: 170px;
+	overflow: hidden;
+	white-space: nowrap;
+
+	@media screen and (max-width: $laptop-screen) {
+		margin-left: 130px;
+	}
+
+	@media screen and (max-width: $tablet-screen) {
+		margin-left: 0px;
+	}
+}

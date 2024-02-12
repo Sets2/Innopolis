@@ -1,0 +1,46 @@
+.memory__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 10px;
+    border: 1px solid $color__darkgray;
+    border-radius: 4px;
+    cursor: pointer;
+    background: transparent;
+
+    &:hover {
+        background: $color__lightgray;
+    }
+
+    &:active {
+        border: 2px solid $color__brown;
+    }
+
+    @media screen and (max-width: $q-hd-screen) {}
+
+    @media screen and (max-width: $high-hd-screen) {}
+
+    @media screen and (max-width: $full-hd-screen) {}
+
+    @media screen and (max-width: $dell-hd-screen) {}
+
+    @media screen and (max-width: $mac-hd-screen) {}
+
+    @media screen and (max-width: $ready-hd-screen) {}
+
+    @media screen and (max-width: $big-tablet-screen) {}
+
+    @media screen and (max-width: $middle-tablet-screen) {}
+
+    @media screen and (max-width: $small-tablet-screen) {}
+
+    @media screen and (max-width: $big-phone-screen) {}
+
+    @media screen and (max-width: $middle-phone-screen) {}
+
+    @media screen and (max-width: $small-phone-screen) {}
+}
+
+@import "_selected/_memory__item_selected";

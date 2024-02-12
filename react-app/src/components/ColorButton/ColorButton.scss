@@ -1,0 +1,37 @@
+.colorButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	width: 80px;
+	height: 80px;
+	border: 1px solid #888888;
+	border-radius: 4px;
+	cursor: pointer;
+	background: transparent;
+
+	@media screen and (max-width: $tablet-screen) {
+		width: 60px;
+		height: 60px;
+	}
+
+	&:hover {
+		background: #F2F2F2;
+	}
+
+	&:active {
+		border: 2px solid #A93A09;
+	}
+
+	&_selected {
+		border: 2px solid #F36223;
+	}
+
+	&__image {
+		height: 60px;
+
+		@media screen and (max-width: $tablet-screen) {
+			height: 50px;
+		}
+	}
+}

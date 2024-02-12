@@ -1,0 +1,16 @@
+.index {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.item {
+	text-align: center;
+}
+
+.font_big {
+	font-size: 8rem;
+	letter-spacing: 10px;
+}

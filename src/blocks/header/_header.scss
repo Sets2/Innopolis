@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid $color__lightgray;
+
+    @media screen and (max-width: $q-hd-screen) {}
+
+    @media screen and (max-width: $high-hd-screen) {}
+
+    @media screen and (max-width: $full-hd-screen) {}
+
+    @media screen and (max-width: $dell-hd-screen) {}
+
+    @media screen and (max-width: $mac-hd-screen) {}
+
+    @media screen and (max-width: $ready-hd-screen) {}
+
+    @media screen and (max-width: $big-tablet-screen) {}
+
+    @media screen and (max-width: $middle-tablet-screen) {}
+
+    @media screen and (max-width: $small-tablet-screen) {}
+
+    @media screen and (max-width: $big-phone-screen) {}
+
+    @media screen and (max-width: $middle-phone-screen) {}
+
+    @media screen and (max-width: $small-phone-screen) {}
+}
+
+@import "_colored/_header_colored";
+@import "__icon-img/_header__icon-img";
+@import "__company/_header__company";
+@import "__icon-counter/_header__icon-counter";
+@import "__icons/_header__icons";
+@import "__icon/_header__icon";

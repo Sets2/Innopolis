@@ -1,0 +1,51 @@
+.container {
+	max-width: calc($laptop-screen + 1px);
+	margin: 0 auto;
+	padding: 0 50px;
+	height: 100%;
+
+	@media screen and (max-width: $laptop-screen) {
+		max-width: 100%;
+		padding: 0 15px;
+	}
+
+	@media screen and (max-width: $tablet-screen) {
+		max-width: 100%;
+		padding: 0 10px;
+	}
+
+	&__breadcrumbs {
+		margin-top: 10px;
+	}
+
+	&_bottom_before-footer {
+		padding-bottom: 100px;
+
+		@media screen and (max-width: $laptop-screen) {
+			padding-bottom: 80px;
+		}
+
+		@media screen and (max-width: $tablet-screen) {
+			padding-bottom: 40px;
+		}
+	}
+
+	&_colored_standart {
+		background: #F8FAFE;
+	}
+
+	&_top_after-header {
+		margin-top: 80px;
+
+		@media screen and (max-width: $tablet-screen) {
+			margin-top: 55px;
+		}
+	}
+
+	&_items_strech {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		flex-grow: 1;
+	}
+}

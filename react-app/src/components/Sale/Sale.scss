@@ -1,0 +1,149 @@
+.sale {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	padding: 20px;
+	gap: 15px;
+	background: #FFFFFF;
+	border: 1px solid #EEEEEE;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+
+	&__discount {
+		padding: 4px 8px;
+		background: #F36223;
+		border-radius: 500px;
+		color: #FFFFFF;
+
+		@media screen and (max-width: $tablet-screen) {
+			font-size: 16px;
+		}
+	}
+
+	&__delivery {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 0px 0px 20px;
+		gap: 10px;
+		align-self: stretch;
+		line-height: 19px;
+
+		@media screen and (max-width: $tablet-screen) {
+			font-size: 16px;
+			padding: 0px;
+		}
+	}
+
+	&__header {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		gap: 10px;
+	}
+
+	&__newprice {
+		font-weight: 500;
+		font-size: 32px;
+
+	}
+
+	&__oldprice {
+		text-decoration-line: line-through;
+		color: #888888;
+
+		@media screen and (max-width: $tablet-screen) {
+			font-size: 16px;
+		}
+	}
+
+	&__old {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
+
+	&__cost {
+		display: flex;
+		flex-direction: column;
+		align-items: stretch;
+		gap: 10px;
+	}
+
+	&__basket {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 20px 48px;
+		gap: 15px;
+		font-size: 20px;
+		background: #F36223;
+		border-radius: 4px;
+		color: #FFFFFF;
+		cursor: pointer;
+		user-select: none;
+
+		@media screen and (max-width: $laptop-screen) {
+			padding: 20px 44px;
+		}
+
+		@media screen and (max-width: $tablet-screen) {
+			padding: 15px 44px;
+			font-size: 16px;
+		}
+
+		&:hover {
+			background: #DA4A0C;
+		}
+
+		&:active {
+			background: #A93A09;
+		}
+
+		&::before {
+			content: "";
+			display: inline-block;
+			width: 24px;
+			height: 24px;
+			background-image: url("../../../public/media/images/cart_white.svg");
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: contain;
+		}
+
+		&_checked {
+			background: $color__darkgray;
+
+			&:hover {
+				background: $color__darkgray;
+			}
+
+			&:active {
+				background: $color__darkgray;
+			}
+		}
+	}
+
+	&__favourites {
+		width: 30px;
+		height: 30px;
+		background-image: url("../../../public/media/images/heart.svg");
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: contain;
+		cursor: pointer;
+
+		&:hover {
+			background-image: url("../../../public/media/images/heart-hover.svg");
+		}
+
+		&:active {
+			background-image: url("../../../public/media/images/heart-active.svg");
+		}
+
+		&_checked {
+			background-image: url("../../../public/media/images/heart-checked.svg");
+		}
+	}
+
+}

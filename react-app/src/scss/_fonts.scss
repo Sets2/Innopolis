@@ -1,0 +1,50 @@
+.font {
+	font-family: Arial, Helvetica, sans-serif;
+	color: $color__black;
+	font-size: 16px;
+
+	@media screen and (max-width: $tablet-screen) {
+		font-size: 14px;
+	}
+
+	&__h1 {
+		font-size: 44px;
+		font-weight: 700;
+
+		@media screen and (max-width: $tablet-screen) {
+			font-size: 32px;
+		}
+	}
+
+	&__h2 {
+		font-size: 32px;
+		font-weight: 700;
+
+		@media screen and (max-width: $tablet-screen) {
+			font-size: 24px;
+		}
+	}
+
+	&__h3 {
+		font-size: 24px;
+		font-weight: 700;
+
+		@media screen and (max-width: $tablet-screen) {
+			font-size: 20px;
+		}
+	}
+
+	&__h4 {
+		font-size: 20px;
+		font-weight: 700;
+	}
+
+	&__h5 {
+		font-size: 16px;
+		font-weight: 700;
+
+		@media screen and (max-width: $tablet-screen) {
+			font-size: 14px;
+		}
+	}
+}

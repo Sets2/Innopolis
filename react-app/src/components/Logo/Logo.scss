@@ -1,0 +1,19 @@
+.logo {
+	color: $color__black;
+	text-decoration: none;
+	cursor: pointer;
+	user-select: none;
+
+	&__company {
+		color: $color__carrot;
+	}
+
+	&__img {
+		height: 44px;
+
+		@media screen and (max-width: $tablet-screen) {
+			height: 30px;
+		}
+	}
+
+}

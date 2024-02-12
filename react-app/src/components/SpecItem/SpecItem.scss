@@ -1,0 +1,25 @@
+.specItem {
+	// display: flex;
+	// align-items: center;
+	// justify-content: flex-start;
+	// gap: 10px;
+
+	&__name {
+		width: 10px;
+
+		@media screen and (max-width: $tablet-screen) {
+			width: 8px;
+		}
+	}
+
+	&::before {
+		content: "⬤";
+		width: 10px;
+		border-radius: 50%;
+		color: #888888;
+		align-items: center;
+		margin-right: 10px;
+		flex-shrink: 0;
+
+	}
+}

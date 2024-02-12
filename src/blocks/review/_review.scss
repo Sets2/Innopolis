@@ -1,0 +1,38 @@
+.review {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 1;
+    gap: 30px;
+
+    @media screen and (max-width: $q-hd-screen) {}
+
+    @media screen and (max-width: $high-hd-screen) {}
+
+    @media screen and (max-width: $full-hd-screen) {}
+
+    @media screen and (max-width: $dell-hd-screen) {}
+
+    @media screen and (max-width: $mac-hd-screen) {}
+
+    @media screen and (max-width: $ready-hd-screen) {}
+
+    @media screen and (max-width: $big-tablet-screen) {}
+
+    @media screen and (max-width: $middle-tablet-screen) {}
+
+    @media screen and (max-width: $small-tablet-screen) {}
+
+    @media screen and (max-width: $big-phone-screen) {}
+
+    @media screen and (max-width: $middle-phone-screen) {}
+
+    @media screen and (max-width: $small-phone-screen) {}
+}
+
+@import "__content/_review__content";
+@import "__img/_review__img";
+@import "__estimation/_review__estimation";
+@import "__star/_review__star";
+@import "__title/_review__title";
+@import "__items/_review__items";
+@import "__item/_review__item";

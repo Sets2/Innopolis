@@ -1,0 +1,90 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	width: 100%;
+	border-bottom: 1px solid $color__lightgray;
+
+	@media screen and (max-width: $tablet-screen) {
+		height: 55px;
+
+	}
+
+	&__icon {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 50px;
+		width: 50px;
+		position: relative;
+
+		@media screen and (max-width: $tablet-screen) {
+			height: 30px;
+			width: 30px;
+		}
+	}
+
+	&__icon-counter {
+		font-size: 14px;
+		line-height: 14px;
+		font-weight: 500;
+		color: $color__white;
+		padding: 3px 5px;
+		min-width: 20px;
+		border-radius: 50%;
+		background-color: $color__carrot;
+		user-select: none;
+
+		position: absolute;
+		top: 0;
+		right: 0;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		&__icon-counter:active {
+			background-color: $color__darkcarrot;
+		}
+	}
+
+	&__icon-img {
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: auto;
+		cursor: pointer;
+	}
+
+	&__icons {
+		display: flex;
+		align-items: flex-start;
+		padding: 10px 0px;
+		gap: 20px;
+	}
+
+	&_colored_standart {
+		background: $color-gray-lighter;
+	}
+}
+
+.header-container {
+	position: fixed;
+	top: 0px;
+	z-index: 10;
+	width: 100%;
+
+	@media screen and (max-width: $tablet-screen) {
+		width: 100vw;
+	}
+}
+
+.icons {
+	&__cart {
+		background-image: url("../../../public/media/images/cart.svg")
+	}
+
+	&__heart {
+		background-image: url("../../../public/media/images/heart.svg")
+	}
+}

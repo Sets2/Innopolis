@@ -1,0 +1,40 @@
+.feedback {
+    padding-left: 170px;
+
+    @media screen and (max-width: $q-hd-screen) {}
+
+    @media screen and (max-width: $high-hd-screen) {}
+
+    @media screen and (max-width: $full-hd-screen) {}
+
+    @media screen and (max-width: $dell-hd-screen) {}
+
+    @media screen and (max-width: $mac-hd-screen) {
+        padding-left: 0px;
+    }
+
+    @media screen and (max-width: $ready-hd-screen) {}
+
+    @media screen and (max-width: $big-tablet-screen) {}
+
+    @media screen and (max-width: $middle-tablet-screen) {}
+
+    @media screen and (max-width: $small-tablet-screen) {}
+
+    @media screen and (max-width: $big-phone-screen) {}
+
+    @media screen and (max-width: $middle-phone-screen) {}
+
+    @media screen and (max-width: $small-phone-screen) {}
+}
+
+@import "__text/_feedback__text";
+@import "__fio-wrapper/_feedback__fio-wrapper";
+@import "__fio/_feedback__fio";
+@import "__row1/_feedback__row1";
+@import "__error/_feedback__error";
+@import "__container/_feedback__container";
+@import "__estimation/_feedback__estimation";
+@import "__title/_feedback__title";
+@import "__estimation-wrapper/_feedback__estimation-wrapper";
+@import "__add/_feedback__add";
